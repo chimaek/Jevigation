@@ -41,7 +41,7 @@ public class TensorFlowObjectDetectionAPIModel implements Classifier {
   private static final Logger LOGGER = new Logger();
 
   // Only return this many results.
-  private static final int MAX_RESULTS = 100;
+  private static final int MAX_RESULTS =100 ;
 
   // Config values.
   private String inputName;
