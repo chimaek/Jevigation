@@ -4,14 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_image"
+    android:background="@drawable/bg_img"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="212dp"
         android:layout_height="64dp"
-        android:background="#4aa843"
+        android:background="@drawable/back_btn"
         android:text="@string/detail"
         android:textColor="@android:color/background_light"
         android:textSize="25sp"
@@ -24,4 +34,3 @@
         app:layout_constraintVertical_bias="0.745" />
 
 </android.support.constraint.ConstraintLayout>
-
