@@ -82,13 +82,13 @@ apply from: "download-models.gradle"
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
 
     if (nativeBuildSystem == 'cmake') {
         defaultConfig {
             applicationId = 'org.tensorflow.demo'
             minSdkVersion 21
-            targetSdkVersion 26
+            targetSdkVersion 28
             ndk {
                 abiFilters "${cpuType}"
             }
